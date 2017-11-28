@@ -18,20 +18,20 @@ public class TestConverNumeroMonetario {
 	public void testValorInvalido() {
 		String valor = "13,92";
 		String result = this.valorMonetario.convert(valor);
-		assertEquals("Valor inv√°lido", result);
+		assertEquals("Valor inv·lido", result);
 	}
 	@Test
 	public void testNumeroNegativo() {
 		String valor = "-23,00";
 		String result = this.valorMonetario.convert(valor);
 		System.out.println(result);
-		assertEquals("Valor inv√°lido", result);
+		assertEquals("Valor inv·lido", result);
 	}
 	@Test
 	public void testNumeroQuatroDigito() {
 		String valor = "1456,00";
 		String result = this.valorMonetario.convert(valor);
-		assertEquals("Valor inv√°lido", result);
+		assertEquals("Valor inv·lido", result);
 	}
 	@Test
 	public void testUnidade() {
@@ -43,7 +43,7 @@ public class TestConverNumeroMonetario {
 	public void testCentena() {
 		String valor = "678,00";
 		String result = this.valorMonetario.convert(valor);
-		assertEquals("Seiscentos e Setenta e Novee", result);
+		assertEquals("Seiscentos e Setenta e Oito", result);
 	}
 
 }
