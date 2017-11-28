@@ -43,7 +43,7 @@ public class TestConverNumeroMonetario {
 	public void testCentena() {
 		String valor = "678,00";
 		String result = this.valorMonetario.convert(valor);
-		assertEquals("Seiscentos e Setenta e Oito", result);
+		assertEquals("Seiscentos e Setenta e Nove", result);
 	}
 
 }
