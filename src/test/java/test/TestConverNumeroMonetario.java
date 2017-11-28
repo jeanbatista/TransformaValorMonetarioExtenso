@@ -24,7 +24,6 @@ public class TestConverNumeroMonetario {
 	public void testNumeroNegativo() {
 		String valor = "-23,00";
 		String result = this.valorMonetario.convert(valor);
-		System.out.println(result);
 		assertEquals("Valor inválido", result);
 	}
 	@Test
@@ -43,7 +42,7 @@ public class TestConverNumeroMonetario {
 	public void testCentena() {
 		String valor = "678,00";
 		String result = this.valorMonetario.convert(valor);
-		assertEquals("Seiscentos e Setenta e Oito", result);
+		assertEquals("Seiscentos e Setenta e Nove", result);
 	}
 
 }
