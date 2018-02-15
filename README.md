@@ -1,5 +1,5 @@
-# Transforms monetary value into text
-Application that transforms monetary value into text, with JUnit.
+# Transforms monetary value into text, with JAVA
+Application that transforms monetary value into text, with JAVA JUnit.
 
 ## Run the app
 
